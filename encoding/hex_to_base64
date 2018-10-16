@@ -23,7 +23,7 @@ begin
 	# Use Base64#strict_encode64 to remove line feeds ('\n')
 	base64_str_encoded = Base64.strict_encode64(base64_str_unencoded)
 
-	puts "All done. Your base64 encoded string is: #{base64_str_encoded}."
+	puts "All done. Your base64 encoded string is: \n#{base64_str_encoded}"
 rescue Exception => e
 	puts "\nSomething went wrong.\nError: #{e}\nExiting."
 	exit 1
