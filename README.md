@@ -1,0 +1,3 @@
+# nixscripts
+
+Just a collection of useful *nix scripts...
