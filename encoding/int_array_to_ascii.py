@@ -4,7 +4,7 @@ import sys
 if len(sys.argv) != 2:
     print("No argument supplied."); exit(1)
 else:
-    payload = sys.argv[1].strip("[").strip("]").split(",")
+    payload = sys.argv[1].strip("[]").split(",")
 
 decoded_msg = ""
 for num in payload:
